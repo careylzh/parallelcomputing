@@ -8,16 +8,23 @@ This repo is organised thematically through folders in the root proj directory.
 
 
 ## Motivation
+
 ### Hardware aspect
 Multicore software processors are getting more and more widely accessible. 
 
 ### From the software perspectve...
-The problem size
-## In order to do //comp, need to understand hardware architectures - CPU and GPU
-## Memory Organisation - UMA, NUMA (“from hardware’s POV)
-## Put hardware and software - hardware-conscious computing 
+The problem size is rapidly increasing, and the performance demand is more and more strict.
+
+## Parallel Architectures
+
+In order to do //comp, need to understand hardware architectures - CPU and GPU
+### Processor Architectures
+### Memory Organisation - UMA, NUMA (“from hardware’s POV)
+### Put hardware and software - hardware-conscious computing 
     1. Parallel JOIN, Experimental Study(why damn lousy these days on common architectures) 
-## When receiving a request to design a parallel program, how are we going to approach it?
+
+## Methodologies
+### When receiving a request to design a parallel program, how are we going to approach it?
     1. Methodology (so 
         1. Partition by data or tasks
         2. Then design how the tasks are going to communicate with each other
