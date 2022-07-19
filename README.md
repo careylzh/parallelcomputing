@@ -7,7 +7,11 @@ Ok so I have convinced and inspired by the advantages of learning parallel compu
 This repo is organised thematically through folders in the root proj directory.
 
 ## How this Course is Organised
-The first 4 week
+The first 4 weeks are important because they build //comp intuitions - keywords, ways of visualising //comp patterns, high-lvl overview of problems(addressed by //comp). Listen in class to see how prof draws stuff when visualising things like stream processing solutions.
+
+The next 4 weeks focus on implementing parallel programs and testing for their correctness. If you think you're alr decent at this, go beyond correctness and ensure that your solution is more efficient (than the previous one). 
+
+The last few weeks focuses systematising all knowledge learnt thus far into design patterns, and parallel program performance analysis - *how do we compose a fair set of engineering KPIs to measure the performance of parallel programs?*
 ### 3 main blocks:
 - week 1234: gaining interest for this course through understanding the powers of //comp, toy problems and basic technical concepts like cache coherence 
     - As engineers, why learn //comp? (brief intro of where //comp, this helps us build sufficient knowledge about what //comp is about so we can keep up with subsequent weeks)
@@ -18,12 +22,10 @@ The first 4 week
         - parallelised bubble sort
         (**TODO: these algos will be used as the fundamental building blocks of subsequent. but which week content?**) 
     - Cache coherence 
-- week 568:
-Week 568: how to implement correct parallel programs, check for correctness of 
-Week 91011: KPI measurement
-Week 12: Adv topics 
-13: Review     
-
+- week 5689: how to implement correct parallel programs, check for correctness of 
+- week 101112:
+  - Week 1011: //comp Design Patterns & KPI measurement
+  - Week 12: "Adv topics" (**TODO:**)
 ## Motivation
 
 ### Hardware aspect
