@@ -51,16 +51,17 @@ In order to do //comp, need to understand hardware architectures - CPU and GPU
 ### Harmonizing hardware software = hardware-conscious computing 
     1. Example of problems in this section: Parallel JOIN, Experimental Study(why damn lousy these days on common architectures) 
 
-## Methodologies
-### When receiving a request to design a parallel program, how are we going to approach it?
-    1. Methodology (so 
-        1. Partition by data or tasks
-        2. Then design how the tasks are going to communicate with each other
-        3. Then design scheduling: whether to put several tasks together, in order to minimise communication between the tasks 
-        4. Mapping: map a thread to a physical core
-            1. NUMA vs UMA hardware architecture will affect this design step
-            2. Using simple sorting algos/tiny computing problems to illustrate the concept of [ ] 
-                1. “Bottom up/top-down”: each subtree can branch into one thread, then you can design how each thread is mapped to each core
+## When receiving a request to design a parallel program, how are we going to approach it?
+This is the highest-lvl problem solving approach of this course. We are going to use this thinking process to approach every parallel computing problem.
+### Foster's Design Methodology
+1. Partition by data or tasks
+2. Communicate: Secondly, design how the tasks are going to communicate with each other
+3. Agglomerate: collect or form into a mass or group. In this case we are handling design scheduling: whether to put several tasks together, in order to minimise communication between the tasks
+4. Map: design a mapping system to map rsp. threads to rsp. physical computing cores. Doing so will help you explore and better understand your data/task requirements
+   1. need to identify if hardware architecture is NUMA vs UMA, as (**TODO**)
+   2. Using simple sorting algos/tiny computing problems learnt in prev week to illustrate the concept of [ ] 
+      1. “Bottom up/top-down”: each subtree can branch into one thread, then you can design how each thread is mapped to each core
 ## Week4: mem caches to evaluate correctness of problems
     1. locality: whether your program can explore spatial or temporal localties
-## Reason behaviour of the program 
+### Intuitions 
+- Try to reason behaviour of the each solution provided 
