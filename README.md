@@ -23,7 +23,12 @@ The last few weeks focuses systematising all knowledge learnt thus far into desi
         - parallelised bubble sort
         (**TODO: these algos will be used as the fundamental building blocks of subsequent. but which week content?**) 
     - Cache coherence 
-- **week 5689**: how to implement correct parallel programs, check for correctness of 
+- **week 5689**: challenges in implementing correct //comp programs and techniques
+  - synchronization
+  - liveness hazards
+  - thread safety + its design principles
+    -(** TODO: refine - what I rmb: **)
+      - change of data structures used: `LinkedList`(not thread safe) --> `LinkedBlockingQueue`
 - **week 101112**: //comp Design Patterns, KPI measurement, "Adv topics"**(week 12, TODO)**
   - week 10 design patterns: 8 of them
   (**TODO: linear search for possible missing patterns in notes**)
