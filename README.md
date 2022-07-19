@@ -4,8 +4,8 @@ How I learned parallel computing in SUTD's May 2022 run of "50.049 Parallel Comp
 **As a creator who is starting his/her career in full-stack software engineering, how will learning parallel computing help me?**
 "*If I take a stone's throw measurement of who knows parallel computing in my workplace, very few people know it. I think the point of learning things as an undergraduate is s.t. when we need it we will be like 'oh I think I have come across this before in [mod]. '*" ~ Anecdote from senior who graduated at 3-4 years ago  
 
-Ok so I have convinced and inspired by the advantages of learning parallel computing, HMW make use of this code base to accelerate my learning in //comp? 
-This repo is organised thematically through folders in the root proj directory.
+Now that I am inspired by the advantages of learning parallel computing, HMW make use of this code base to accelerate my learning in //comp? 
+This repo is organised thematically through folders in the root proj directory (**TODO:** decide whether to put code examples here or just pseudo-code, since not every1 who wants to learn //comp is a Java or C++ developer. But hey - Java/C++ libraries streamline the implementation of //comp for developers)
 
 ## How this Course is Organised
 The first 4 weeks are important because they build //comp intuitions - keywords, ways of visualising //comp patterns, high-lvl overview of problems(addressed by //comp). Listen in class to see how prof draws stuff when visualising things like stream processing solutions.
