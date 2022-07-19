@@ -25,6 +25,16 @@ The last few weeks focuses systematising all knowledge learnt thus far into desi
     - Cache coherence 
 - **week 5689**: how to implement correct parallel programs, check for correctness of 
 - **week 101112**: //comp Design Patterns, KPI measurement, "Adv topics"**(week 12, TODO)**
+  - week 10 design patterns: 8 of them
+  (**TODO: linear search for possible missing patterns in notes**)
+    - Fork-join
+    - Parbegin-parend 
+    - SIMD
+    - **SPMD**
+    - **Pipelining**
+    - **Master-Worker**
+    - **Client-Server**
+    - **Producer-Consumer**
 ## Motivation
 
 ### Hardware aspect
