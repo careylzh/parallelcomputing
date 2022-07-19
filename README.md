@@ -14,7 +14,7 @@ The next 4 weeks focus on implementing parallel programs and testing for their c
 
 The last few weeks focuses systematising all knowledge learnt thus far into design patterns, and parallel program performance analysis - *how do we compose a fair set of engineering KPIs to measure the performance of parallel programs?*
 ### 3 main blocks:
-- week 1234: gaining interest for this course through understanding the powers of //comp, toy problems and basic technical concepts like cache coherence 
+- **week 1234**: gaining interest for this course through understanding the powers of //comp, toy problems and basic technical concepts like cache coherence 
     - As engineers, why learn //comp? (brief intro of where //comp, this helps us build sufficient knowledge about what //comp is about so we can keep up with subsequent weeks)
     - Foster's Design Methodology: the 4 steps used to approach a problem to parallelise it (could be applied on existing problems designed of a different computing paradigm, or to design new solutions for a new problem statement) 
     - Toy problems: `FactorPrime`
@@ -23,10 +23,8 @@ The last few weeks focuses systematising all knowledge learnt thus far into desi
         - parallelised bubble sort
         (**TODO: these algos will be used as the fundamental building blocks of subsequent. but which week content?**) 
     - Cache coherence 
-- week 5689: how to implement correct parallel programs, check for correctness of 
-- week 101112:
-  - Week 1011: //comp Design Patterns & KPI measurement
-  - Week 12: "Adv topics" (**TODO:**)
+- **week 5689**: how to implement correct parallel programs, check for correctness of 
+- **week 101112**: //comp Design Patterns, KPI measurement, "Adv topics"**(week 12, TODO)**
 ## Motivation
 
 ### Hardware aspect
